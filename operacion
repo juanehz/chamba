@@ -1,0 +1,15 @@
+Proceso ejempolo
+	DEFINIR num1 Como Entero;
+	leer A;
+	leer B;
+	leer C;
+	leer D;
+	num1 = A+B;
+	num2 = C*D;
+	num3 = num1 - 4;
+	num4 = num3 ^ 2;
+	num5 = num4 / num2;
+	Escribir"el resultado de la operacion es: "
+	Escribir num5
+FinProceso
+	
