@@ -1,0 +1,6 @@
+Proceso ejempolo
+	DEFINIR num1 Como Entero;
+	
+	escribir"Ingrese un número: ";
+	Leer num1;
+FinProceso
