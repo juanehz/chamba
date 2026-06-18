@@ -1,0 +1,7 @@
+Proceso ejempolo
+	B = 8
+	H = 8
+	num1 = B*H
+	num2 = num1/2
+	escribir "el Area del triangulo es: ", num2;
+FinProceso
