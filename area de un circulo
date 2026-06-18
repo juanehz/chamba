@@ -1,0 +1,7 @@
+Proceso ejemplo
+	A =  Pi
+	R = 40
+	num1 = R ^ 2
+	num2 = A * num1
+	escribir "el Area del circulo es: ", num2;
+FinProceso
