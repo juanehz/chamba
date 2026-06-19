@@ -1,0 +1,14 @@
+Algoritmo funciones_con_cadenas
+	Definir cad1, cad2 como cadena;
+	definir num Como Entero
+	cadena<-"informática";
+	Escribir "la longitud de cad1 es: ", Longitud(cad1);
+	Escribir "El primer caracter de cad1 es: ", subcadena(cad1,0,0);
+	escribir "El ultimo caracter de cad1 es: ", subcadena(cad1,longitud(cad1)-1,longitud(cad1)-1);
+	escribir "la cad1 en mayusculas es: ", Mayusculas(cad1);
+	escribir cad2;
+	num<-ConvertirANumero("10");
+	escribir num;
+	Escribir concatenar("es numero es: ", convertirAtexto(num));
+	escribir "el numero es ", num;
+FinAlgoritmo
