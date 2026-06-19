@@ -1,0 +1,35 @@
+Algoritmo sin_titulo
+	Definir a, b, c, d Como Entero
+	escribir "ingrese el valor de a"
+	leer a
+	escribir "ingrese el valor de b"
+	leer b
+	escribir "ingrese el valor de c"
+	leer c
+	escribir "ingrese el valor de d"
+	leer d
+	
+	si a < 17 y b < 17 Entonces
+		Escribir "ambos valores son menores a 17"
+	sino
+		Escribir "los valores no son menores a 17"
+	FinSi
+	
+	si a = b y b = c y a <> d
+		escribir "las variables a, b, y c son iguales, pero direfentes a d"
+	SiNo
+		Escribir "las variables a, b y c no son iguales y diferentes de d"
+	FinSi
+	
+	si a < c y (b > a y b < c) y (d > a y d < c)
+		escribir "b y d si estan entre a y c"
+	sino 
+		escribir"b y d no están entre a y c"
+	FinSi
+	
+	si a = b o a = c o b = c
+		Escribir "si, hay al menos 2 valores identicos"
+	SiNo
+		Escribir "no hay valores identicos entre a, b, o c"
+	FinSi
+FinAlgoritmo
