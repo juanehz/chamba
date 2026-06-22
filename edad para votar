@@ -1,0 +1,27 @@
+Algoritmo voto
+	definir H, J, K Como Entero
+	Escribir "heidy ingrese su edad: "
+	leer H
+	Escribir "Julian ingrese su edad: "
+	leer J
+	Escribir "Kevin ingrese su edad: "
+	leer K
+	
+si H >= 18 Entonces // verificar edad
+		Escribir"Heidy Usted puede votar"
+	SiNo
+		Escribir"A casa"
+	FinSi
+	
+si J >= 18 Entonces // verificar edad
+		Escribir"Julian Usted puede votar"
+	SiNo
+		Escribir"A casa "
+	FinSi
+	
+si K >= 18 Entonces //verificar edad
+	Escribir"Kevin Usted puede votar"
+SiNo
+	Escribir"A casa "
+FinSi	
+FinAlgoritmo
