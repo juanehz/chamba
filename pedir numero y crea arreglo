@@ -1,0 +1,31 @@
+Algoritmo voto
+	
+	Limpiar Pantalla
+	
+	Escribir ""
+	Escribir "se asignaron los números ..."
+	Escribir ""
+	
+	Definir cantidad Como Entero
+	escribir "cuantos numero quieres capturar?" Sin Saltar
+	Leer cantidad
+	
+	Escribir ""
+	
+	definir m Como Entero
+	dimension vnumero[cantidad]
+	Escribir ""
+	Escribir "captura de numeros ..."
+	Escribir ""
+	Escribir "Presione para continuar ..."
+	Esperar Tecla
+	escribir ""
+	para m = 1 Hasta cantidad con paso 1 Hacer
+		escribir "el elemnto en la posición ",m," es ",vnumero[m]
+	FinPara
+	
+	escribir ""
+	Escribir "Presione para continuar ..."
+	Esperar Tecla
+Limpiar Pantalla
+FinAlgoritmo
