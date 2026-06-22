@@ -1,0 +1,9 @@
+Algoritmo sin_titulo
+	definir edad Como Entero
+edad = 17
+	si edad >= 18 Entonces
+		Escribir" Usted puede ser encuestado"
+	SiNo
+		Escribir"Usted No puede ser encuestado"
+	FinSi
+FinAlgoritmo
