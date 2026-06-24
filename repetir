@@ -1,0 +1,9 @@
+Algoritmo repetir_
+	DEFINIR numeroso Como Entero
+	
+	Repetir
+		Escribir "ingrese un número"
+		leer numeroso
+		Escribir numeroso
+	Hasta Que numeroso == 0
+FinAlgoritmo
