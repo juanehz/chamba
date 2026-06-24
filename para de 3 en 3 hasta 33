@@ -1,0 +1,14 @@
+Algoritmo treintaytres
+	
+	DEFINIR i Como Entero
+	
+	//el bucle inicia en 0 va sumando 3 hasta 33
+	para i=0 hasta 33 con paso 3 Hacer
+		Escribir i
+	FinPara
+	
+	//limpiamos pantalla
+	Esperar Tecla
+	Limpiar Pantalla
+	
+FinAlgoritmo
