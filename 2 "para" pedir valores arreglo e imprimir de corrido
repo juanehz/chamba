@@ -1,0 +1,21 @@
+Algoritmo treintaytres
+	DEFINIR num, i Como Entero
+	//definir el tamaño del arreglo
+	dimension num[5]
+	
+	//Usar un para, para pedir las variables y guardarlas
+	para i=1 hasta 5 con paso 1 Hacer
+		Escribir "Escribir el numero ",i, " : "
+		Leer  num[i]
+	FinPara
+
+	//el bucle inicia en i = 1 hasta 5 (tamaño del arreglo) de a +1
+	para i=1 hasta 5 con paso 1 Hacer
+		Escribir num[i];
+	FinPara
+	
+	//limpiamos pantalla
+	Esperar Tecla
+	Limpiar Pantalla
+	
+FinAlgoritmo
