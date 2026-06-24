@@ -1,0 +1,11 @@
+Algoritmo para_
+	
+	DEFINIR numerito Como Entero
+	para i=2 hasta 10 con paso 2 Hacer
+		Escribir i
+	FinPara
+	
+	Esperar Tecla
+	Limpiar Pantalla
+	
+FinAlgoritmo
