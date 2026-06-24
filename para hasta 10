@@ -1,0 +1,6 @@
+Algoritmo para_
+	DEFINIR numerito Como Entero
+	para i=1 hasta 10 con paso 1 Hacer
+		Escribir i
+	FinPara
+FinAlgoritmo
