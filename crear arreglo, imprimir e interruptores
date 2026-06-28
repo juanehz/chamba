@@ -1,0 +1,37 @@
+Algoritmo bandera
+	Definir i Como Entero
+	definir precio Como Real
+	//definimos banderita como logico para que sea el interruptor
+	definir banderira Como Logico
+	//le damos verdaero al interruptor
+	banderita = Verdadero
+	//creamos un arreglo para guardar los productos, con limite 5
+	dimensionar precio[5]
+	Escribir "======= Ingreso de productos ========"
+	Escribir ""
+	//creamos un para que cuente de 1 a 5
+	para i=1 hasta 5 Con Paso 1 Hacer
+		//pedimos el precio y lo va guardando el cada posicion del arreglo (1,2,3,4,5)
+		Escribir "Ingrese el precio de su producto ",i," : "
+		leer precio[i]
+		//si el precio es mayor a un millon, activará el interruptor, falso
+		si precio[i] > 1000000 Entonces
+			banderita = Falso
+		FinSi
+	FinPara
+	
+	Escribir "___________________________________"
+	//si el interruptor es falso, imprimirá el texto
+	si banderita == falso entonces 
+		Escribir "Factura sujeta a revision fiscal!!!"
+	sino
+		//si el interruptor sigue verdaero:
+		si banderita == Verdadero entonces
+			Escribir"Sus productos ingresados: "
+			//repetira 5 veces el "Escribir precio"  en posiciones diferentes, dansolos todos
+			para i=1 hasta 5 Con Paso 1 Hacer
+				Escribir precio[i]
+			FinPara
+		FinSi
+	FinSi
+FinAlgoritmo
